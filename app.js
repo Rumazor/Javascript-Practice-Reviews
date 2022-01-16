@@ -55,7 +55,7 @@ const randomBtn = document.querySelector('.random-btn');
 currentItem = 0;
 
 
-// Evento
+// Eventos
 function showPerson(){
   const item = reviews[currentItem];
   img.src = item.img;
@@ -64,6 +64,9 @@ function showPerson(){
   info.textContent = item.text;
   
 }
+
+
+
 
 window.addEventListener("DOMContentLoaded", ()=>{
   showPerson(currentItem)
