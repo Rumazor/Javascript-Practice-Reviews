@@ -55,7 +55,7 @@ const randomBtn = document.querySelector('.random-btn');
 currentItem = 0;
 
 
-
+// Evento
 function showPerson(){
   const item = reviews[currentItem];
   img.src = item.img;
